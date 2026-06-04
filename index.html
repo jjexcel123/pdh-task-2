@@ -13,6 +13,15 @@
             --accent: #f59e0b;
         }
         * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        /* Disable text selection across all elements */
+        * {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
         body { font-family: system-ui, sans-serif; line-height: 1.7; color: var(--dark); background: var(--light); padding: 20px; }
         header { background: linear-gradient(135deg, var(--primary), var(--secondary)); color: white; padding: 38px 20px 28px 20px; text-align: center; border-radius: 8px; margin-bottom: 35px; }
         header h1 { font-size: 2.1rem; letter-spacing: 0.02em; margin-bottom: 12px; }
@@ -68,11 +77,11 @@
         <section>
             <h2>Introduction: The Scientific Context</h2>
             <blockquote>
-                “Adolescence is a critical period of development, representing the transition between childhood and adulthood and involving dramatic changes in the brain, the body, and behavior. 
+                "Adolescence is a critical period of development, representing the transition between childhood and adulthood and involving dramatic changes in the brain, the body, and behavior. 
                 Increasing recognition of this period as one not just of risk, but also of opportunity, has been reflected in burgeoning research on the adolescent brain and behavior. 
 
                 During adolescence, the brain undergoes unique and transformative changes. It is a period of 'exceptional neuroplasticity,' a time when the brain is particularly amenable to learning and adaptation, while also being a period during which young people are especially sensitive to their environments and social contexts. 
-                These processes can support cognitive growth as well as increased vulnerability to risk (Choudhury, Blakemore, and Charman, 2006; Crone and Dahl, 2012).”
+                These processes can support cognitive growth as well as increased vulnerability to risk (Choudhury, Blakemore, and Charman, 2006; Crone and Dahl, 2012)."
             </blockquote>
             <div class="source">
                 — National Academies of Sciences, Engineering, and Medicine. The Promise of Adolescence, Chapter 3, Executive Summary (2019)
@@ -83,12 +92,12 @@
         <section>
             <h2>Why Is Adolescent Risk-Taking Different?</h2>
             <blockquote>
-                “Adolescents’ inclination toward risk-taking cannot be attributed solely to deficits in knowledge or cognitive control. 
+                "Adolescents' inclination toward risk-taking cannot be attributed solely to deficits in knowledge or cognitive control. 
                 Instead, current developmental science suggests it results from the interaction between heightened reward sensitivity and still-maturing cognitive control systems—a mismatch in the timing of brain development. 
 
                 Substantial research reveals that adolescents place greater value on reward, particularly in social contexts, and this sensitivity is related to changes in dopaminergic circuitry occurring during adolescence. 
                 These neurobiological changes make adolescents more prone to 'risky' action in emotionally charged situations, even when they know and understand the risks involved. 
-                With maturity, the cognitive control system gradually increases its influence over behavior, eventually supporting healthier choices and allowing individuals to suppress impulses.”
+                With maturity, the cognitive control system gradually increases its influence over behavior, eventually supporting healthier choices and allowing individuals to suppress impulses."
             </blockquote>
             <div class="source">
                 — National Academies of Sciences, Engineering, and Medicine. The Promise of Adolescence, Chapter 3 (2019)
@@ -99,11 +108,11 @@
         <section>
             <h2>Gist-Based Reasoning and Life Experience</h2>
             <blockquote>
-                “Whereas adults typically rely on 'gist-based reasoning'—that is, the use of intuition and quick judgments built on life experience—adolescents tend to focus on specific details and engage in more analytical reasoning. 
+                "Whereas adults typically rely on 'gist-based reasoning'—that is, the use of intuition and quick judgments built on life experience—adolescents tend to focus on specific details and engage in more analytical reasoning. 
                 This approach, although logical, may lead them to rationalize or underestimate risks. As adolescents age and accumulate experiences, they increasingly shift toward relying on the gist or essential meaning of situations, which fosters safer, more adaptive decisions. 
 
                 The transition from detail-focused to gist-based reasoning is gradual and depends heavily on social learning and opportunities to practice judgment. 
-                This aligns with classic findings that, in real-world risky scenarios, adolescents may intellectually comprehend consequences but nonetheless behave differently than most adults would (Reyna, 2012; Steinberg, 2007).”
+                This aligns with classic findings that, in real-world risky scenarios, adolescents may intellectually comprehend consequences but nonetheless behave differently than most adults would (Reyna, 2012; Steinberg, 2007)."
             </blockquote>
             <div class="source">
                 — National Academies of Sciences, Engineering, and Medicine. The Promise of Adolescence, Chapter 3 (2019)
@@ -114,11 +123,11 @@
         <section>
             <h2>Implications for Policy and Education</h2>
             <blockquote>
-                “Because the development of higher-level impulse and risk control is not complete until adulthood, the law, social institutions, and education must be attentive to the distinctive developmental context of adolescence. 
-                Policies and programs should recognize that young people’s decision-making reflects their current developmental stage—not merely willful disregard for rules or consequences—and should focus on providing opportunities for positive development as well as supports that scaffold better reasoning and self-management.
+                "Because the development of higher-level impulse and risk control is not complete until adulthood, the law, social institutions, and education must be attentive to the distinctive developmental context of adolescence. 
+                Policies and programs should recognize that young people's decision-making reflects their current developmental stage—not merely willful disregard for rules or consequences—and should focus on providing opportunities for positive development as well as supports that scaffold better reasoning and self-management.
 
                 Providing safe environments, guidance, and meaningful participation in family, school, and community life is crucial for healthy adolescent development. 
-                The adolescent brain is both vulnerable and uniquely open to positive transformation, making it an ideal time for intervention and support.”
+                The adolescent brain is both vulnerable and uniquely open to positive transformation, making it an ideal time for intervention and support."
             </blockquote>
             <div class="source">
                 — National Academies of Sciences, Engineering, and Medicine. The Promise of Adolescence, Executive Summary & Chapter 3 (2019)
@@ -129,9 +138,9 @@
         <section>
             <h2>Conclusion</h2>
             <blockquote>
-                “Adolescents are not simply 'older children' nor 'immature adults.' 
+                "Adolescents are not simply 'older children' nor 'immature adults.' 
                 They are youth undergoing a unique phase of neurobiological and psychosocial change. These changes underpin both the challenges and extraordinary opportunities characteristic of this stage. 
-                Given the right context and supports, adolescence can set the foundation for lifelong health, learning, and productivity.”
+                Given the right context and supports, adolescence can set the foundation for lifelong health, learning, and productivity."
             </blockquote>
             <div class="source">
                 — National Academies of Sciences, Engineering, and Medicine. The Promise of Adolescence, Executive Summary (2019)
@@ -155,5 +164,55 @@
         PDHPE Research Paper — All content direct from <i>The Promise of Adolescence</i> (2019), National Academies<br>
         <a href="https://www.ncbi.nlm.nih.gov/books/NBK554988/" target="_blank" rel="noopener">NCBI Bookshelf</a>
     </footer>
+
+    <script>
+        // Block right-click context menu
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Block Ctrl+C, Ctrl+A, Ctrl+X, Ctrl+V, Ctrl+U (view source shortcut)
+        document.addEventListener('keydown', function(e) {
+            const blocked = (
+                (e.ctrlKey || e.metaKey) && (
+                    e.key === 'c' ||
+                    e.key === 'C' ||
+                    e.key === 'a' ||
+                    e.key === 'A' ||
+                    e.key === 'x' ||
+                    e.key === 'X' ||
+                    e.key === 'u' ||
+                    e.key === 'U' ||
+                    e.key === 'p' ||
+                    e.key === 'P'
+                )
+            );
+            if (blocked) {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        // Clear any selection that somehow occurs
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Clear selection on mouseup just in case
+        document.addEventListener('mouseup', function() {
+            if (window.getSelection) {
+                window.getSelection().removeAllRanges();
+            }
+        });
+
+        // Block drag (another way to copy text)
+        document.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+    </script>
+
 </body>
 </html>
